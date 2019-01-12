@@ -1,9 +1,6 @@
 <template>
 	<div>
-		<a href="#">Contact Us</a>
+		<nuxt-link to="/contact">Contact Us</nuxt-link>
 	</div>
 </template>
-
-<style>
-</style>
 
