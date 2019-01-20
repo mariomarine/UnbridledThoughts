@@ -30,7 +30,7 @@ export default {
   },
     async created() {
         try {
-            const response = await axios.get('http://unbridledthoughts.com/?rest_route=/wp/v2/posts&per_page=100')
+            const response = await axios.get('https://unbridledthoughts.com/?rest_route=/wp/v2/posts&per_page=100')
             this.posts = response.data
             console.log(this.posts)
         } catch (e) {
